@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use File::Find;
 
-@ARGV == 3 or die;
+@ARGV == 3 or die; # perl rename_file_extension.pl /my/dir/ old_ext new_ext
 
 
 my $dir = $ARGV[0];
